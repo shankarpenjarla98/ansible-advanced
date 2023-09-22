@@ -1,0 +1,5 @@
+- name: Insytalling Roboshop Project
+  hosts: mongodb
+  become: yes
+  roles:
+  - mongodb
